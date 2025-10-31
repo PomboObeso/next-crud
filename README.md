@@ -1,3 +1,58 @@
+# Next CRUD
+
+Projeto desenvolvido como prática de integração entre front-end e back-end utilizando Next.js com TypeScript e Tailwind CSS.
+A ideia principal foi implementar um CRUD completo (Create, Read, Update, Delete) com interface moderna, responsiva e código limpo.
+
+## 💡 Objetivo
+
+Explorar o potencial do Next.js para construir aplicações completas, unindo front e back no mesmo ambiente, e praticar conceitos de tipagem estática com TypeScript e componentes reutilizáveis com React.
+
+## ⚙️ Tecnologias utilizadas
+
+- Next.js — framework React com suporte a rotas e APIs integradas
+
+- TypeScript — tipagem estática e segurança no código
+
+- Tailwind CSS — estilização utilitária e design responsivo
+
+- PostCSS / ESLint / TSConfig — configuração de ambiente e boas práticas
+
+- Hooks personalizados — organização de lógica e reuso de código
+
+## 🚀 Funcionalidades
+
+- Listagem de registros
+
+- Criação de novos usuários
+
+- Edição e exclusão de dados
+
+- Interface responsiva em múltiplos tamanhos de tela
+
+- Comunicação entre front e back via API Routes do Next
+
+## 📚 Aprendizados
+
+Durante o desenvolvimento, foram reforçados conceitos como:
+
+- Organização de pastas e arquitetura de projeto em Next.js
+
+- Tipagem e componentes genéricos em TypeScript
+
+- Consumo e criação de APIs internas com Next
+
+- Estilização e responsividade com Tailwind CSS
+
+- Reaproveitamento de lógica com hooks personalizados
+
+## 🔗 Repositório
+
+GitHub - PomboObeso/next-crud
+
+---
+
+###### Parte referente a rodar (default do Next.js)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
 
 ## Getting Started
