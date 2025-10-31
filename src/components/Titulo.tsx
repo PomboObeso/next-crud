@@ -1,4 +1,8 @@
-export default function Titulo(props: any) {
+interface TituloProps {
+    children: string
+}
+
+export default function Titulo(props: TituloProps) {
     return (
         <div className="flex flex-col justify-center">
             <h1 className="pl-4 py-2 text-2xl">
