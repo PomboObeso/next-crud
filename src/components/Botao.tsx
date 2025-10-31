@@ -1,15 +1,20 @@
 interface BotaoProps {
-    cor?: 'green' | 'blue' |'gray'
+    cor?: 'green' | 'blue' | 'gray'
     className?: string
-    children: any
+    children: string
     onClick?: () => void
 }
 
 export default function Botao(props: BotaoProps) {
-    const cor = props.cor ?? 'blue'
+    const cores = {
+        green: 'from-green-400 to-green-600',
+        blue: 'from-blue-400 to-blue-600',
+        gray: 'from-gray-400 to-gray-600'
+    }
+    const cor = props.cor ?? 'gray'
     return (
-        <button onClick={props.onClick} className= {`
-            bg-linear-to-r from-${cor}-400 to-${cor}-600 text-white
+        <button onClick={props.onClick} className={`
+            bg-linear-to-r ${cores[cor]} text-white
             px-4 py-2 rounded-md 
             ${props.className}
         `}>

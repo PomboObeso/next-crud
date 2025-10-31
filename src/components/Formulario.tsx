@@ -31,7 +31,7 @@ export default function Formulario(props: FormularioProps) {
                 valorAlterado={setIdade}
             />
             <div className="flex justify-end mt-3">
-                <Botao className="mr-2" onClick={() => props.clienteAlterado?.(new Cliente(nome, +idade, id))}>
+                <Botao className="mr-2" cor="blue" onClick={() => props.clienteAlterado?.(new Cliente(nome, +idade, id))}>
                     {id ? 'Alterar' : 'Salvar'}
                 </Botao>
                 <Botao onClick={props.cancelado}> Cancelar </Botao>

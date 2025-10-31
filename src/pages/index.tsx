@@ -43,7 +43,7 @@ export default function Home() {
         {visivel === 'tabela' ? (
           <>
             <div className="flex justify-end">
-              <Botao onClick={novoCliente} className="mb-2">Novo Cliente</Botao>
+              <Botao onClick={novoCliente} cor="green" className="mb-2">Novo Cliente</Botao>
             </div>
             <Tabela clientes={clientes}
               clienteSelecionado={clienteSelecionado}
